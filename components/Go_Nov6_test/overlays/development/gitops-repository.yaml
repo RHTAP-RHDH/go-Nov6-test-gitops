@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: Go_Nov6_test-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/go-Nov6-test-gitops
